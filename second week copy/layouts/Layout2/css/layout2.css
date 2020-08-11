@@ -1,0 +1,30 @@
+header, footer {
+  height: 100px;
+  border: 1px solid black;
+  clear: both;
+}
+
+section {
+  height: 200px;
+  border: 2px solid;
+  float: left;
+}
+
+.class1 {
+  width: 100%;
+  color: blue;
+}
+
+.class2 {
+  width: 35%;
+  color: red;
+}
+
+.class3 {
+  width: 65%;
+  color: yellow;
+}
+
+* {
+  box-sizing: border-box;
+}

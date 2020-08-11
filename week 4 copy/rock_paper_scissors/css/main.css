@@ -1,0 +1,41 @@
+*{
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+body{
+  background-image: url("../images/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  font-family: papyrus;
+}
+
+
+h1, #status{
+  color: white;
+  font-size: 4rem;
+  font-weight: 900;
+}
+
+ th, td, h2{
+  color: white;
+  font-weight: 900;
+}
+
+p, strong, th, td, h2{
+  font-size:1.875rem;
+}
+
+table{
+  width: 50%;
+  margin-left: 25%;
+}
+
+button {
+  padding: 16px 75px;
+  font-family: papyrus;
+  background-color: gray;
+  margin: 27px 3px;
+  font-weight: 900;
+}

@@ -1,0 +1,46 @@
+
+.containgSection {
+  height: 600px;
+  width: 100%
+}
+
+.sectionOne, .sectionTwo {
+  height: 700px;
+  width: 50%;
+  position: relative;
+  float: right;
+  text-align: left;
+}
+
+header, footer, .sectionOne, .containgSection, .sectionTwo {
+  box-sizing: border-box;
+  border: 2px black solid;
+  background-color: #7A7C7F;
+}
+
+.myName , .listIndustry{
+  padding-left: 6px;
+  line-height: 23px;
+}
+
+.listIndustry {
+  padding-left: 20px;
+}
+.education, .skills{
+  float: left;
+  width: 49%;
+  border: 1px solid black;
+}
+.work {
+  float: left;
+  width: 100%;
+  border: 1px solid black;
+}
+h6 {
+  font-size: 19px;
+}
+footer {
+  border: 1px solid black;
+  float: left;
+  width: 100%;
+}
