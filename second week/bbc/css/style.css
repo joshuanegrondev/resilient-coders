@@ -1,0 +1,122 @@
+header {
+  float: left;
+  overflow: auto;
+  background-color: black;
+  width: 100%;
+  color: white;
+  font-family: sans-serif;
+}
+.list1 li {
+  display: inline-block;
+  float: left;
+  margin: 10px;
+  border-left: 1px solid white;
+  padding-left: 20px;
+}
+.icon {
+  height: 20px;
+  width: 20px;
+}
+#icon2 {
+  display: none;
+}
+.list1 > .logoList {
+  margin-left: 0px;
+  border: none;
+  margin-top: 0px;
+}
+.list1 .icon {
+  position: relative;
+  top: 6px;
+  left: -5px;
+}
+#sort {
+border-left: 0px;
+}
+.list1 .search {
+  margin-top: 0px;
+}
+#input {
+  margin-left: 5px;
+
+}
+#search {
+  padding: 0;
+  padding-bottom: 5px;
+}
+.topMiddle {
+  float: left;
+  overflow: auto;
+  background-color: #e7e8e1;
+  width: 100%;
+}
+.trump {
+  background-image: url("../img/trump.jpg");
+  width: 50%;
+  padding-top: 300px;
+  color: white;
+  font-family: sans-serif;
+  background-position: center;
+  float: left;
+  margin-left: 65px;
+}
+.spans {
+  color: gray;
+  font-family: sans-serif;
+  float: left;
+  width: 100%;
+}
+.bbc {
+  margin-right: 900px;
+  margin-left: 65px;
+}
+.four {
+  float: left;
+  width: 45%;
+}
+.four section {
+  float: left;
+  width: 45%;
+  margin-left: 15px;
+  height: 209px;
+  color: white;
+  font-family: sans-serif;
+  background-position: center;
+  font-weight: bold;
+}
+.small1 {
+  background-image: url("../img/trump2.jpg");
+}
+.small2 {
+  background-image: url("../img/tillerson.jpeg");
+}
+.small3 {
+  background-image: url("../img/oxford.jpg");
+  margin-top: 20px;
+}
+.small4{
+  background-image: url("../img/office.jpg");
+  margin-top: 20px;
+}
+.four h3 {
+  margin-top: 100px;
+}
+.four h3, .four p {
+  margin-left: 20px;
+}
+.four p {
+  border-left: 3px solid blue;
+  padding-left: 5px;
+  font-weight: normal;
+}
+.bottom {
+  margin-left: 5%;
+  float: left;
+  width: 95%;
+}
+.bottom h2 {
+  font-family: sans-serif;
+  color: gray;
+  border-left: 3px solid red;
+  padding-left: 8px;
+}

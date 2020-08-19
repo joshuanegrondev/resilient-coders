@@ -1,0 +1,196 @@
+header, footer{
+  width: 100%;
+  float:left;
+  border: 1px solid black;
+  height:166px;
+}
+
+header section{
+  float: left;
+  width: 7%;
+  border: 1px solid black;
+  height: 37%;
+  margin-left: 23px;
+  margin-top: 41px;
+}
+
+.ads {
+  display: none;
+}
+
+.row1Box1{
+  height: 275px;
+  width: 74%;
+  border: 1px solid black;
+  float: left;
+}
+
+.row1Box2{
+    height: 275px;
+    width: 25%;
+    border: 1px solid black;
+    float: left;
+}
+
+
+.row2Box1{
+  height: 275px;
+  width: 30%;
+  border: 1px solid black;
+  float: left;
+}
+
+.row2Box2{
+  height: 275px;
+  width: 33%;
+  border: 1px solid black;
+  float: left;
+}
+
+.row2Box3{
+  float: left;
+  width: 39%;
+  border: 1px solid black;
+  height: 275px;
+}
+
+footer section{
+  float: left;
+  width: 7%;
+  border: 1px solid black;
+  height: 37%;
+  margin-left: 23px;
+  margin-top: 41px;
+}
+
+/* for mobile */
+
+@media only screen and (max-width: 613px){
+  header, footer {
+    float: left;
+    width: 100%;
+    border: 0.063em solid black;
+  }
+
+  header section, footer section {
+    float: left;
+    width: 28%;
+    border: 0.063em solid black;
+    height: 70%;
+    margin-left: 0.625em;
+    margin-top: 0.438em;
+  }
+
+  .ads {
+    display: none;
+  }
+
+  .row1Box1, .row1Box2, .row2Box1 {
+    width: 100%;
+    border: 0.063em solid black;
+    float: left;
+  }
+
+  .row2Box2, .row2Box3{
+      float: left;
+      width: 100%;
+  }
+
+  .below{
+    display: none;
+  }
+  }
+
+  /* for tablets */
+
+@media (min-width: 614px) and (max-width:800px){
+header,footer {
+  float: left;
+  width: 100%;
+}
+header section, footer section {
+  float: left;
+  width: 29%;
+  border: 0.063em solid black;
+  height: 70%;
+  margin-left: 1.625em;
+  margin-top: 1.438em;
+}
+
+.ads {
+  display: none;
+}
+
+.row1Box1, .row1Box2, .row2Box1 {
+  width: 100%;
+  border: 0.063em solid black;
+  float: left;
+}
+
+.row2Box2, .row2Box3{
+    float: left;
+    width: 100%;
+}
+
+.below{
+  display: none;
+}
+}
+
+/* for desktop snd large screens */
+@media (min-width:1200px){
+  header, footer{
+    width: 100%;
+    float:left;
+    border: 1px solid black;
+    height:166px;
+  }
+
+  header section{
+    float: left;
+    width: 7%;
+    border: 1px solid black;
+    margin-left: 23px;
+    margin-top: 41px;
+  }
+  .row1Box1{
+    width: 74%;
+    border: 1px solid black;
+    float: left;
+  }
+
+  .row1Box2{
+    height: 275px;
+    width: 25%;
+    border: 1px solid black;
+    float: left;
+  }
+
+  .row2Box2{
+    height: 275px;
+    width: 33%;
+    border: 1px solid black;
+    float: left;
+  }
+
+  .row2Box3{
+    float: left;
+    width: 39%;
+    border: 1px solid black;
+    height: 275px;
+  }
+
+  footer section{
+    float: left;
+    width: 7%;
+    border: 1px solid black;
+    height: 37%;
+    margin-left: 23px;
+    margin-top: 41px;
+  }
+
+  .ads{
+    float: left;
+    display: block;
+  }
+}

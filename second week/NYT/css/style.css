@@ -1,0 +1,61 @@
+header {
+  height: 200px;
+  clear: both;
+
+}
+
+.leftSection {
+  width: 20%;
+}
+
+.middleSection {
+width: 40%;
+}
+
+.rightSection {
+width: 40%;
+}
+
+header, .leftSection, .middleSection, .rightSection {
+  border: 1px solid black;
+  box-sizing: border-box;
+}
+ .leftSection, .middleSection, .rightSection {
+   float: left;
+ }
+
+li {
+  display: inline;
+  border-right: 1px solid gray;
+}
+
+.headerTop1 {
+  display: inline-block;
+  position: relative;
+  top: 7px;
+}
+
+
+.headerTop2{
+  float: right;
+  position: relative;
+  top: 7px;
+  margin-right: 8px
+}
+
+li, i {
+  padding-right: 5px;
+}
+
+section h1, .dates, .languages, .menu {
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.president {
+  
+}

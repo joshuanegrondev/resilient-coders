@@ -1,0 +1,88 @@
+*{
+  box-sizing: border-box;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+}
+
+body{
+  background-image: url(../images/background.jpeg);
+  width: 100%;
+}
+
+
+h1, #result {
+  font-size: 3.75rem;
+}
+
+.valuesClass{
+  float: left;
+  width: 100%;
+  overflow: auto;
+}
+form {
+  width: 100%;
+}
+
+#firstValue, #secondValue{
+  width: 35%;
+  padding: 62px;
+  color: black;
+  font-size: 2rem;
+}
+
+#firstValue{
+  margin-right: 5%;
+}
+#secondValue{
+  margin-left: 5%;
+}
+.additionSubstraction{
+  float: left;
+  width: 100%;
+}
+
+button{
+  background-color: black;
+  padding: 82px;
+  margin: 51px;
+}
+
+.addClass, .substractClass, .multiplyClass, .divideClass{
+  float: left;
+  width: 50%;
+}
+
+.multiplicationDivision{
+  float: left;
+  width: 100%;
+}
+
+#result{
+  clear: both;
+}
+
+
+@media only screen and (max-width: 500px){
+  h1{
+    font-size: 1rem;
+  }
+  #firstValue, #secondValue {
+    margin:0;
+    padding:50px;
+    }
+    #firstValue {
+      margin-right:2%;
+
+    }
+    #secondValue {
+      margin-left: 2%;
+
+    }
+    button{
+      padding: 50px;
+      margin:0;
+      margin-top: 30px;
+    }
+
+}

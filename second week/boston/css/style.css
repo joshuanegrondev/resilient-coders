@@ -1,0 +1,88 @@
+header {
+  border: 1px solid red;
+  overflow: auto;
+  width: 100%;
+  background-color: #000000;
+}
+
+.all {
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 5%;
+  float: left;
+  overflow: auto;
+}
+
+.section1 {
+  width: 60%;
+}
+
+.section2 {
+  width: 30%;
+}
+
+.section1, .section2 {
+  float: left;
+}
+
+.stories {
+  width: 100%;
+}
+.mainImage {
+  width: 70%;
+  float: left;
+}
+.rightBar {
+  float: right;
+  width: 29%;
+}
+.leftBelow {
+  float: left;
+  width: 70%;
+}
+
+.navUl li {
+  float: left;
+  list-style-type: none;
+  margin-left: 0px;
+}
+
+.navUl li a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+h1 {
+  float: left;
+  margin: 0;
+}
+
+.headerL a {
+  margin-left: 591px;
+}
+
+.firstPic, .secondPic {
+  width: 50%;
+  float: left;
+}
+
+a, h5, p, h4 {
+  font-family: Effra, Helvetica, Arial, Verdana, sans-serif;
+  text-decoration: none;
+  color: black;
+}
+
+.ad {
+  width: 100%;
+  position: relative;
+  top: 10px;
+  left: 74px;
+}
+
+a{
+  display: inline-grid;
+}

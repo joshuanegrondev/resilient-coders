@@ -1,0 +1,398 @@
+*{
+  font-family: "Arial";
+  box-sizing: border-box;
+}
+
+header{
+  float: left;
+  height:150px;
+  width: 100%;
+}
+
+.mainNav{
+  float: left;
+  height: 100%;
+  width: 49%;
+}
+
+.logo{
+  width: 20%;
+}
+
+.icons{
+  width: 30%;
+  float: right;
+}
+
+.incons span{
+  display: inline-block;
+  margin-top: 25px;
+  float: left;
+}
+
+
+.icons, .logo{
+  height: 100%;
+  float: left;
+}
+
+#no {
+  display:none;
+}
+
+.message{
+  float: right;
+  margin-top: 97px;
+}
+
+.message form{
+  float: right;
+}
+
+h1 img{
+  float: left;
+  height:92px;
+}
+
+.tip>span{
+  color: green;
+  display: inline-block;
+  margin-top: 25px;
+}
+
+.socialMedias li{
+  display: inline;
+  float: left;
+  margin-top: 0;
+  margin-left: 10px;
+}
+
+.socialMedias{
+  display: inline;
+}
+.icons span {
+  float: left;
+}
+
+
+.socialMedias button{
+  float: left;
+  margin-top: 126px;
+  margin-right: 0px;
+  margin-left: -135px;
+}
+
+.annual{
+  float: left;
+  background-color: rgb(33, 72, 15);
+  width: 100%;
+}
+.follow {
+  float: left;
+  width: 100%;
+}
+
+.annual p{
+  color: white;
+  text-align: center;
+}
+
+.watch{
+  width: 46%;
+  text-align: center;
+  float: left;
+}
+
+.watch img{
+  height: 491px;
+  width:100%;
+  float: left;
+}
+
+.featured{
+  float: left;
+  width: 27%;
+  font-size: 12px;
+  margin-top: 10px;
+}
+
+.featured h3{
+  font-size: 24px;
+  margin-top: 10px;
+}
+
+.featured section{
+  float: left;
+}
+
+.imagesFeatured{
+  float: left;
+  height: 81px;
+  margin-top: 13px;
+  margin-right: 22px;
+}
+
+.imagesFeatured p{
+  margin: 0;
+}
+
+
+.have{
+  float: left;
+  width: 27%;
+}
+
+.pitch{
+  font-size: 20px;
+  border-top: 4px solid black;
+  border-bottom: 4px solid black;
+  background-color: rgb(236, 236, 236);
+  padding-top: 12px;
+  padding-bottom: 12px
+}
+
+.have p span{
+  color: green;
+}
+
+.subscription{
+  background-color: rgb(33, 72, 15);
+  color: white;
+  text-align: center;
+  height: 30px;
+}
+
+h5{
+  padding-top: 10px;
+}
+
+.subscription ul{
+  color: black;
+  list-style-type: none;
+  text-align: start;
+  padding: 0;
+}
+
+.subscription ul li{
+  border-bottom: 1px solid black;
+}
+
+@media only screen and (max-width:500px) {
+
+  .mainNav{
+    display:none;
+  }
+  .logo{
+    display:inline-block;
+    margin-right: 30%;
+    border: none;
+  }
+
+  .icons{
+    border: none;
+  }
+  .logo{
+    display:inline-block;
+    margin-right: 30%;
+    border: none;
+  }
+
+  .icons{
+    border: none;
+  }
+.socialMedias .delete {
+  display: none;
+}
+
+  .follow span {
+    display: none;
+  }
+  .none {
+    display: none;
+  }
+
+  #no {
+    display: inline-block;
+    float: right;
+  }
+  .message input {
+    float: left;
+  }
+
+.watch {
+  width: 100%;
+}
+#featured {
+  display: none;
+}
+.subscription p {
+  display: none;
+}
+.have {
+  width: 100%;
+  text-align: center;
+}
+}
+
+@media (min-width: 501px) and (max-width:800px) {
+  .mainNav{
+    display:none;
+  }
+  .logo{
+    display:inline-block;
+    margin-right: 30%;
+    border: none;
+  }
+
+  .icons{
+    border: none;
+  }
+  .logo{
+    display:inline-block;
+    margin-right: 30%;
+    border: none;
+  }
+
+  .icons{
+    border: none;
+    float: right;
+  }
+.socialMedias .delete {
+  display: none;
+}
+
+  .follow span {
+    display: none;
+  }
+  .none {
+    display: none;
+  }
+  .annual .none {
+    display: inline-block;
+  }
+
+  #no {
+    display: inline-block;
+    float: right;
+  }
+  .message input {
+    float: right;
+  }
+
+.watch {
+  width: 100%;
+}
+#featured {
+  display: none;
+}
+.subscription {
+  float: left;
+  width: 100%;
+  margin-top: 15px;
+}
+.have {
+  float: left;
+  width: 100%;
+  text-align: center;
+}
+.have .pitch {
+  display: none;
+}
+.subscription h5 {
+  color: black;
+}
+}
+
+@media (min-width: 801px) and (max-width: 1100px){
+  .mainNav{
+    display:none;
+  }
+  .logo{
+    display:inline-block;
+    margin-right: 30%;
+    border: none;
+  }
+
+  .icons{
+    border: none;
+  }
+  .logo{
+    display:inline-block;
+    margin-right: 30%;
+    border: none;
+  }
+
+  .icons{
+    border: none;
+    float: right;
+  }
+  .socialMedias .delete {
+  display: none;
+  }
+
+  .follow span {
+    display: none;
+  }
+  .none {
+    display: none;
+  }
+  .annual .none {
+    display: inline-block;
+  }
+
+  #no {
+    display: inline-block;
+    float: right;
+  }
+  .message input {
+    float: right;
+  }
+
+  .watch {
+  width: 100%;
+  }
+  .featured {
+    width: 40%;
+    margin-left: 5%;
+    border: 4px solid rgb(33, 72, 15);
+    margin-top: 25px;
+  }
+
+  .featured p {
+    margin-left: 5%;
+    font-weight: bold;
+  }
+  .featured span {
+    margin-left: 7%;
+  }
+  .featured section {
+    width: 45%;
+    margin-left: 5%;
+  }
+  .featured img {
+    margin-right: 1%;
+  }
+
+  .subscription {
+  float: left;
+  width: 70%;
+  margin-top: 15px;
+  }
+  .have {
+    width: 45%;
+    margin-left: 5%;
+   }
+  .have .pitch {
+  display: none;
+  }
+  .have .subscription {
+    width: 100%;
+  }
+  .subscription h5 {
+  color: black;
+  width: 51%;
+}
+  .watch {
+    background-color: #50C878;
+  }
+}

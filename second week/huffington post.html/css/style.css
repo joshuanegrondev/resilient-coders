@@ -1,0 +1,96 @@
+header, footer {
+  height: 200px;
+  width: 100%;
+  background-color: #2e7061;
+}
+ * {
+   box-sizing: border-box;
+ }
+
+header, .class1, .insideHeader1, .insideHeader2, .insideLeft, .insideRight, .insideMiddle, .moreNews1, .moreNews2, footer {
+  border: solid 1px black;
+}
+
+.class1 {
+  height: 500px;
+  width: 100%;
+}
+
+.insideHeader1, .insideHeader2 {
+  height: 100px;
+  width: 100%;
+}
+
+.insideLeft, insideRight {
+  height: 100px;
+  width: 30%;
+  float: left;
+}
+
+.insideMiddle {
+  height: 100px;
+  width: 40%;
+  float: left;
+}
+
+.headerNav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  float: left;
+}
+
+.headerNav li {
+  float: left;
+}
+
+.headerNav li a {
+  display: block;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+
+.articleTitle h2 {
+  text-align: center;
+}
+
+.articleTitle a img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.moreNews1, .moreNews2 {
+  height: 100px;
+  width: 100%;
+}
+
+footer {
+  background-color: 	#212121;
+}
+
+.footerNav {
+  background-color: #333;
+  overflow: hidden;
+  bottom: 0;
+  width: 100%;
+  list-style-type: none;
+}
+
+.footerNav li {
+  float: left;
+  list-style-type: none;
+}
+
+.footerNav li a, footer > span, footer > p{
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
