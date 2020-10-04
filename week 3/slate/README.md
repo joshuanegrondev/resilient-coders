@@ -1,4 +1,5 @@
 # SLATE Website Recreation
+![image](https://user-images.githubusercontent.com/69063454/95005261-e691ab80-05c3-11eb-81f1-e9a96d34414c.png)
 A recreation of the SLATE website's front page.
 
 
